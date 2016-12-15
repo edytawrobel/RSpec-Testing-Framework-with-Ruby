@@ -11,6 +11,14 @@ class Car
     @wheels = 4
   end
 
+  def doors=(doors)
+    @doors = doors
+  end
+
+  def doors
+    @doors 
+  end
+
   def self.colors
     ['blue', 'black', 'red', 'green']
   end
